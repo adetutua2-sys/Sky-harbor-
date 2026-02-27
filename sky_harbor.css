@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+
+    background: lightskyblue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: lightskyblue;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMAGE/beach-6292382_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1,
+h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 20px 26px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    margin: bottom 40px;
+    color: skyblue;
+}
+
+.flex-grid {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    flex: 1 1 300px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 20px;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1 1 450px;
+}
+
+
+
+.about-image img {
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #0a3d62;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width:760px) {
+    .hero h1 {
+        font-size: 2.2ren;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.button {
+    background-color: deeppink;
+}
+
+.btn-1 {
+    margin: 5px;
+    border: none;
+    background-color: #AAC4F5;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.btn-2 {
+    margin: 5px;
+    border: none;
+    background-color: #AAC4F5;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+}
+
+.btn-2:hover {
+    background-color: #8ce4ff00;
+    border: 1px solid white;
+}
+
+.btn-1:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #8CE4FF;
+}
+
+.abb {
+    align-content: center;
+    font-family: cursive;
+
+}
+
+.beachhyy{
+   width: 100%;
+    border-radius:100px;
+    border:10px solid white;
+}
+
+p{
+    font-family:monospace;
+     
+}
+
+h3{
+    font-family:cursive;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.scc{
+    margin: 0px;
+}
